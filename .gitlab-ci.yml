@@ -6,7 +6,7 @@ stages:
 before_script:
   - echo $GOPATH
   - ln -s /builds /go/src/github.com
-  - cd /go/src/github.com/containernetworking/plugins
+  - cd /go/src/github.com/containernetworking/cni
   - go get ${TOOLS_CMD}/cover
   - go get github.com/modocache/gover
   - go get github.com/mattn/goveralls
