@@ -42,4 +42,3 @@ release:
     expire_in: 4 weeks
     paths:
       - release.env
-      - bin/
